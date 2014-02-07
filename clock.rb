@@ -38,7 +38,9 @@ handler do |job|
         tweets << tweet.id
       end
     rescue Twitter::Error::AlreadyPosted => e 
+      tweets << tweet.id
       p e
+      p "tweet id is #{tweet.id}."
     end
     # p tweet.text.gsub(/\@.*?\s/, '')
   end
