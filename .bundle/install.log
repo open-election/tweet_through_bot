@@ -1,0 +1,10 @@
+# Logfile created on 2014-02-07 21:42:38 +0900 by logger.rb/44203
+I, [2014-02-07T21:42:38.898721 #2343]  INFO -- : 0:  i18n (0.6.9) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-02-07T21:42:38.899200 #2343]  INFO -- : 0:  minitest (4.7.5) from /Users/chihiro/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-02-07T21:42:40.199828 #2343]  INFO -- : 0:  multi_json (1.8.4) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-07T21:42:43.604334 #2343]  INFO -- : 0:  atomic (1.1.14) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-07T21:42:45.648648 #2343]  INFO -- : 0:  thread_safe (0.1.3) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-07T21:42:49.126978 #2343]  INFO -- : 0:  tzinfo (0.3.38) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-07T21:42:53.074747 #2343]  INFO -- : 0:  activesupport (4.0.2) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-02-07T21:42:54.295118 #2343]  INFO -- : 0:  clockwork (0.7.0) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/clockwork-0.7.0.gemspec
+I, [2014-02-07T21:42:54.295591 #2343]  INFO -- : 0:  bundler (1.5.1) from /Users/chihiro/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/source

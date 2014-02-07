@@ -1,0 +1,6 @@
+rvm:
+  - 1.9.3
+  - 2.0.0
+gemfile:
+  - gemfiles/activesupport3.gemfile
+  - gemfiles/activesupport4.gemfile
