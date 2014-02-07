@@ -8,3 +8,12 @@ I, [2014-02-07T21:42:49.126978 #2343]  INFO -- : 0:  tzinfo (0.3.38) from /Users
 I, [2014-02-07T21:42:53.074747 #2343]  INFO -- : 0:  activesupport (4.0.2) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/activesupport-4.0.2.gemspec
 I, [2014-02-07T21:42:54.295118 #2343]  INFO -- : 0:  clockwork (0.7.0) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/clockwork-0.7.0.gemspec
 I, [2014-02-07T21:42:54.295591 #2343]  INFO -- : 0:  bundler (1.5.1) from /Users/chihiro/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/source
+I, [2014-02-07T21:51:27.253072 #2455]  INFO -- : 0:  i18n (0.6.9) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-02-07T21:51:27.253964 #2455]  INFO -- : 0:  minitest (4.7.5) from /Users/chihiro/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/minitest-4.7.5.gemspec
+I, [2014-02-07T21:51:28.782672 #2455]  INFO -- : 0:  multi_json (1.8.4) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-07T21:51:30.897838 #2455]  INFO -- : 0:  atomic (1.1.14) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-02-07T21:51:33.060798 #2455]  INFO -- : 0:  thread_safe (0.1.3) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-02-07T21:51:37.515022 #2455]  INFO -- : 0:  tzinfo (0.3.38) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-02-07T21:51:41.006339 #2455]  INFO -- : 0:  activesupport (4.0.2) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/activesupport-4.0.2.gemspec
+I, [2014-02-07T21:51:42.473776 #2455]  INFO -- : 0:  clockwork (0.7.0) from /Users/chihiro/git/test_clock/vendor/bundle/ruby/2.1.0/specifications/clockwork-0.7.0.gemspec
+I, [2014-02-07T21:51:42.474328 #2455]  INFO -- : 0:  bundler (1.5.1) from /Users/chihiro/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.1/lib/bundler/source
