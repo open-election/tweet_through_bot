@@ -5,8 +5,8 @@ requirements
 -------------
 
 - ruby 2.x
-- heroku
 - bundler installed
+- heroku (optional)
 
 installtion
 ------------
@@ -28,4 +28,29 @@ usage
 > bundle exec ruby bot.rb
 or
 > foreman start
+```
+
+heroku
+----------------
+
+### deploy
+
+```
+> heroku config:add INTERVAL=60
+> heroku config:add TWITTER_CONSUMER_KEY="TWITTER_CONSUMER_KEY"
+> heroku config:add TWITTER_CONSUMER_SECRET="TWITTER_CONSUMER_SECRET"
+> heroku config:add TWITTER_ACCESS_TOKEN="TWITTER_ACCESS_TOKEN"
+> heroku config:add TWITTER_ACCESS_SECRET="TWITTER_ACCESS_SECRET"
+> git push heroku master
+```
+
+
+### start
+```
+> heroku scale clock=1
+```
+
+### stop
+```
+> heroku scale clock=0
 ```
