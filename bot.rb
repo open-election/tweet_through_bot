@@ -1,4 +1,9 @@
-#clock.rb
+# -*- coding:utf-8 -*-
+# How to use
+# 
+# bundle exec clockwork bot.rb
+
+require 'bundler/setup'
 require 'clockwork'
 require 'twitter'
 
@@ -25,12 +30,7 @@ handler do |job|
     config.consumer_key = TWITTER_CONSUMER_KEY
     config.consumer_secret = TWITTER_CONSUMER_SECRET
   end
-  #client = settings.twitter_client
   client.search("to:uraieiri ", :count => 100).each do |tweet|
-    # t = {:id => tweet.id, :uri => tweet.uri, :text => tweet.text, :favorited => tweet.favorited}
-    # if tweet.media[0]
-    #   t[:photo_uri] = tweet.media[0].media_uri.to_s
-    # end
     begin
       unless tweets.include?(tweet.id) then
         postClient.update(tweet.text.gsub(/\@.*?\s/, ''))
@@ -42,9 +42,7 @@ handler do |job|
       p e
       p "tweet id is #{tweet.id}."
     end
-    # p tweet.text.gsub(/\@.*?\s/, '')
   end
-  # p tweets.to_json
   p "Getting tweet done."
 end
 
